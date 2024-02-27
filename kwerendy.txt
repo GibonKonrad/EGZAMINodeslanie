@@ -1,0 +1,9 @@
+kw1:
+INSERT INTO ratownicy (ratownicy.nrKaretki, ratownicy.ratownik1, ratownicy.ratownik2,ratownicy.ratownik3) VALUES(20,'Adam Nowak','Jan Kowalski','Anna Nowakowska');
+kw2:
+SELECT zgloszenia.id, zgloszenia.adres, zgloszenia.ratownicy_id FROM zgloszenia inner join dyspozytorzy on dyspozytorzy.id=zgloszenia.dyspozytorzy_id
+WHERE dyspozytorzy.id=4
+kw3:
+CREATE USER 'adam' IDENTIFIED BY 'Adam6&';
+kw4:
+GRANT CREATE, ALTER, DROP ON ee09.ratownicy TO 'adam';

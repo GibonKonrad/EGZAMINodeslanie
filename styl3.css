@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.baner1, .baner2, .baner3, .stopka1, .stopka2, .stopka3
+{
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+}
+.baner1, .baner2, .baner3
+{
+    float: left;
+}
+.stopka1, .stopka2, .stopka3
+{
+    float: left;
+}
+.glowny
+{
+    clear: both;
+}
+.baner1, .stopka1
+{
+    width: 55%;
+    font-size: 120%;
+}
+.baner2, .stopka2
+{
+    width: 25%;
+}
+.baner3,.stopka3
+{
+    width: 20%;
+    text-align: right;
+}
+.glowny
+{
+    background-color: snow;
+    padding: 70px;
+}
+a
+{
+    border: dotted 2px saddlebrown;
+    background-color: snow;
+    color: saddlebrown;
+    padding: 20px;
+    line-height: 100px;
+}
+ol
+{
+    list-style-type: lower-alpha;
+}
